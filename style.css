@@ -1,0 +1,184 @@
+@font-face {
+	font-family: 'Pretendard Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: url('./woff2/PretendardVariable.woff2') format('woff2-variations');
+}
+
+.black-bg {
+    width : 100%;
+    height : 100%;
+    position : fixed;
+    background : rgba(0,0,0,0.5);
+    z-index : 5;
+    padding: 30px;
+    display: none;
+  }
+
+.contents-box {
+    width: 70%;
+    height: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.show-modal {
+    display: block;
+}
+
+.container{
+    width: 1194px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    width: 100%;
+    height: 204px;
+    background-color: white;
+    margin-bottom: 10px;
+    position: relative  ;
+}
+
+.slide-hidden{
+    overflow: hidden;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide-container{
+    width: 3600px;
+    height: 450px;
+    margin-bottom: 20px;
+    transition: all 1s;
+}
+
+.bottons{
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.slide-box{
+    width: 1200px;
+    height: 100%;
+    float: left;
+}
+
+.slide-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contents{
+    width: 103%;
+    height: 519px;
+    margin-bottom: 93px;
+    background-color: white ;
+    position: relative;
+}
+
+.main-menu{
+    float: left;
+    position: absolute;
+    top : 40%;
+    right: -10px;
+}
+
+.name{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    position: absolute;
+    top: 40%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.menu{
+    float: left;
+    margin-left: 100px;
+    list-style-type: none;
+}
+
+.menu > a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: medium;
+    font-family: 'Pretendard Variable';
+}
+
+.title{
+    width: 98%;
+    height: 40px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.title-name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Pretendard Variable';
+    float: left;
+    margin: 0px;
+}
+
+.card{
+    display:flex;
+    flex-direction:column; 
+    justify-content:space-between;
+    border:1px solid #ebeaec;
+    box-shadow:0px 4px 6px rgba(0,0,0,0.3);
+    padding:24px;
+    margin-right: 30px;
+    width: 40%;
+    color: white;
+    background-image: url(images.jpg);
+    background-color: #D9D9D9;
+    filter: brightness(80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cards{
+    width: 100%;
+    height: 80%;
+    clear: both;
+    display: flex;
+    justify-content: row;
+    position: absolute;
+    bottom: 0px;
+}
+
+.card > a{
+    width: 100%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.footer{
+    width: 100vw;
+    height: 300px;
+    background-color: gray;
+    margin-top: 63px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name > a {
+    text-decoration: none;
+    color: black;
+}
